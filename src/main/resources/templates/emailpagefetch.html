@@ -8,10 +8,21 @@
 <body>
 <!-- TODO User should be able to submit data -->
 <section class="content">
-    <button onclick="location.href='/'">
-        <h1>GO BACK
-        </h1>
-    </button>
+
+    <br>
+    <br>
+    <br>
+    <form method="POST" action="/fetchEmail">
+        <label for="email">Here is the email<br>
+            <br>    <br>
+            <br> </label>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p th:text="${emailPost}">
+        </p>
+    </form>
 </section>
 </body>
 </html>

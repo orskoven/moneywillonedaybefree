@@ -8,16 +8,31 @@
 <body>
     <!-- TODO User should be able to submit data -->
     <section class="content">
-            <h1>🤑 Free moneyy no scam - very much easy 4 U 🤑</h1>
+
+        <br>
+        <br>
+        <br>
             <form method="POST" action="/submit">
-                <label for="email">ENTER YOUR EMAIL AND YOU WILL BE ON YOUR WAY TO PURE MONEY FORTUNE </label>
+                <label for="email">ENTER YOUR EMAIL    <br>
+                    <br> AND YOU WILL BE ON YOUR WAY TO     <br>
+                    <br>PURE MONEY FORTUNE </label>
                 <br>
                 <br>
-                <div>
+                <br>
+                <br>
                 <input id="email" type="email" name="email"/>
-                <input type="submit">
-                </div>
+                <button input type="submit"> SUBMIT </button>
             </form>
+                <form method="GET" action="/">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                <button input type="submit"> GET A RANDOM EMAIL </button>
+                    <br>
+                    <br>
+            </form>
+        <p th:text="${postemail}"></p>
     </section>
 </body>
 </html>
