@@ -17,7 +17,7 @@ public class InsertEmailsToDb {
              //on the localhost with the default port number 3306.
              String url = "jdbc:mysql://localhost:3306/free_money";
 
-             con = DriverManager.getConnection(url, "root", "aqs81rqKk");
+             con = DriverManager.getConnection(url, "root", "");
 
              //Display the URL and connection information
              System.out.println("URL: " + url);
